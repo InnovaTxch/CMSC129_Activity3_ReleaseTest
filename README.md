@@ -26,7 +26,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 
 ## c. Requirements-Based Testing
 
-### REQUIREMENT #1
+### REQUIREMENT #1: Offline Availability
 | Field | Value |
 |---|---|
 | Requirement | "The app must run without internet connection." |
@@ -35,7 +35,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 | Actual Result | App launched and core pages were usable offline. |
 | Pass / Fail | ✅PASS |
 
-### REQUIREMENT #2
+### REQUIREMENT #2: No Login Required
 | Field | Value |
 |---|---|
 | Requirement | "The app must not require login before use." |
@@ -44,7 +44,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 | Actual Result | No login prompt; user can continue directly. |
 | Pass / Fail | ✅PASS |
 
-### REQUIREMENT #3
+### REQUIREMENT #3: Create Expense Records
 | Field | Value |
 |---|---|
 | Requirement | "The app must allow creating expense records." |
@@ -53,7 +53,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 | Actual Result | New expense was successfully added. |
 | Pass / Fail | ✅PASS |
 
-### REQUIREMENT #4
+### REQUIREMENT #4: Edit Expense Records
 | Field | Value |
 |---|---|
 | Requirement | "The app must allow editing existing expense records." |
@@ -62,7 +62,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 | Actual Result | Record updates were reflected correctly. |
 | Pass / Fail | ✅PASS |
 
-### REQUIREMENT #5
+### REQUIREMENT #5: Delete Expense Records
 | Field | Value |
 |---|---|
 | Requirement | "The app must allow deleting expense records." |
@@ -72,7 +72,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 | Pass / Fail | ✅PASS |
 | Remark | Feature works, but with caveats. The delete interaction is not clearly communicated (swipe-to-delete with undo), and deletion is only finalized after the snackbar timeout ends, which can feel delayed. |
 
-### REQUIREMENT #6
+### REQUIREMENT #6: Preset and Custom Categories
 | Field | Value |
 |---|---|
 | Requirement | "The app must support expense categories (preset and custom)." |
@@ -81,7 +81,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 | Actual Result | Preset and custom categories both worked. |
 | Pass / Fail | ✅PASS |
 
-### REQUIREMENT #7
+### REQUIREMENT #7: Receipt Scan/Image Upload
 | Field | Value                                                                                       |
 |---|---------------------------------------------------------------------------------------------|
 | Requirement | "The app must support receipt scan or receipt image upload."                                |
@@ -90,7 +90,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 | Actual Result | Input fields were either inaccurately filled or left empty.                                 |
 | Pass / Fail | ❌ FAIL                                                                                      |
 
-### REQUIREMENT #8
+### REQUIREMENT #8: Budget Limit Configuration
 | Field | Value                                                                            |
 |---|----------------------------------------------------------------------------------|
 | Requirement | "The app must allow budget limit configuration."                                 |
@@ -99,7 +99,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 | Actual Result | Budget settings were saved successfully.                                         |
 | Pass / Fail | ✅PASS                                                                            |
 
-### REQUIREMENT #9
+### REQUIREMENT #9: Reminder/Notification Settings
 | Field | Value |
 |---|---|
 | Requirement | "The app must allow reminder/notification configuration." |
@@ -108,7 +108,7 @@ FINS is an offline-first personal finance tracker that helps users record expens
 | Actual Result | Reminder settings were saved. |
 | Pass / Fail |  ✅PASS |
 
-### REQUIREMENT #10
+### REQUIREMENT #10: Summaries and Insights
 | Field | Value |
 |---|---|
 | Requirement | "The app must show expense summaries and insights." |
