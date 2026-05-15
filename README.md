@@ -1,5 +1,27 @@
 # CMSC129 Activity 3 - Release Test Report
 
+## Table of Contents
+- [a. Target App Summary](#a-target-app-summary)
+- [b. Requirements List (10 Requirements)](#b-requirements-list-10-requirements)
+- [c. Requirements-Based Testing](#c-requirements-based-testing)
+  - [REQUIREMENT #1: Offline Availability](#requirement-1-offline-availability)
+  - [REQUIREMENT #2: No Login Required](#requirement-2-no-login-required)
+  - [REQUIREMENT #3: Create Expense Records](#requirement-3-create-expense-records)
+  - [REQUIREMENT #4: Edit Expense Records](#requirement-4-edit-expense-records)
+  - [REQUIREMENT #5: Delete Expense Records](#requirement-5-delete-expense-records)
+  - [REQUIREMENT #6: Preset and Custom Categories](#requirement-6-preset-and-custom-categories)
+  - [REQUIREMENT #7: Receipt Scan/Image Upload](#requirement-7-receipt-scanimage-upload)
+  - [REQUIREMENT #8: Budget Limit Configuration](#requirement-8-budget-limit-configuration)
+  - [REQUIREMENT #9: Reminder/Notification Settings](#requirement-9-remindernotification-settings)
+  - [REQUIREMENT #10: Summaries and Insights](#requirement-10-summaries-and-insights)
+- [d. Scenario-Based Testing](#d-scenario-based-testing)
+  - [Scenario 1: Daily Expense Tracking](#scenario-1-daily-expense-tracking)
+  - [Scenario 2: Monthly Budget Management](#scenario-2-monthly-budget-management)
+- [e. Summary](#e-summary)
+  - [i. Testing Summary](#i-testing-summary)
+  - [ii. Conclusion](#ii-conclusion)
+  - [iii. Remarks](#iii-remarks)
+
 ## a. Target App Summary
 **Target App Name:** FINS (Finance Tracker)
 
